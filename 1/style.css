@@ -1,0 +1,144 @@
+.clearfix::after{
+    content: '';
+    display:block;
+    clear: both;
+}
+.thebox{
+    margin: auto;
+    height: 450px;
+    width: 400px;
+
+}
+
+.header{
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;  
+    position: relative;
+}
+
+.main{
+    display: flex;    
+}
+
+.left{
+    width: 150px;
+    height: outo;
+    background-color: #80bfa8;
+    float: left;
+}
+
+.theright{
+    float: left;
+    
+}
+
+.under{
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+    display: flex; 
+    flex-direction: column;
+}
+
+.footer{
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;  
+     
+}
+
+.white2{
+    
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 60px;
+    background-color: white;
+}
+.inwhite2{
+    background-color: #ff863f;
+    width: 140px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.white3{
+    
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 60px;
+    background-color: white;
+}
+.inwhite3{
+    background-color: #ff863f;
+    width: 140px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.white4{
+    
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 60px;
+    background-color: white;
+}
+.inwhite4{
+    background-color: #ff863f;
+    width: 140px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.white{
+    height: 60px;
+    width: 160px;
+    background-color: white;
+    margin-left: 200px;
+    
+    position: relative;
+    top:20px;
+
+    
+
+    display: flex;
+    justify-content: space-between; 
+
+
+}
+
+.upwhite1{
+    height: 40px;
+    width: 40px;
+    background-color: #a9004b;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+
+}
+
+.upwhite2{
+    height: 40px;
+    width: 40px;
+    background-color: #a9004b;
+    margin-top: 10px;
+    
+}
+
+.upwhite3{
+    height: 40px;
+    width: 40px;
+    background-color: #a9004b;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
